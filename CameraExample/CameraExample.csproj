@@ -40,6 +40,7 @@
   <ItemGroup>
     <Content Include="app\app.js" />
     <Content Include="index.html" />
+    <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\cordova.js" />
     <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
