@@ -8,9 +8,9 @@
         }, false);
 
         $scope.capturePhotoWithData = function () {
+            if ($cordovaCamera == undefined) alert("$cordovaCamera is undefined");
 
-
-            $cordovaCamera.getPicture(options).then(function (imageData) {
+            $cordovaCamera.getPicture().then(function (imageData) {
                 var image = document.getElementById('myImage');
                 image.src = "data:image/jpeg;base64," + imageData;
             }, function (message) {
